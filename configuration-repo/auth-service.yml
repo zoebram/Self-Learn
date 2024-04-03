@@ -1,8 +1,8 @@
 
 server:
-  port: 7090 // specify port
+  port: 7090
   servlet:
-      context-path: /auth // add context and configure it into gateway server yml
+      context-path: /auth
 jwt:
   auth:
     converter:
